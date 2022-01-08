@@ -1,0 +1,11 @@
+.places-list__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 460px;
+  color: white;
+}
