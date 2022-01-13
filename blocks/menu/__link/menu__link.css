@@ -4,13 +4,30 @@
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.1;
   text-decoration: none;
   color: white;
   margin-right: 18px;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+.menu__link:hover {
+  opacity: 0.8;
+}
+.menu__link:last-of-type {
+  margin-right: 0;
 }
 
 
-.menu__link:last-of-type {
-  margin-right: 0;
+@media screen and (max-width: 767px) {
+  .menu__link {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+
+  .menu__link:last-of-type {
+    margin-bottom: 48px;
+  }
 }

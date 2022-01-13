@@ -2,3 +2,12 @@
   grid-column: 2 /3;
   grid-row: 2 / 3;
 }
+
+
+@media screen and (max-width: 767px) {
+  .places-list__paragraphs {
+    grid-row: 4;
+    grid-column: 1;
+    padding: 0 16px 0;
+  }
+}

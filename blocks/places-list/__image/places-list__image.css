@@ -1,4 +1,10 @@
 .places-list__image {
-  width: 460px;
-  height: 460px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .places-list__image {
+    grid-row: 3 / 4;
+  }
 }
