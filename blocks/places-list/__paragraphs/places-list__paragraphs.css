@@ -3,7 +3,6 @@
   grid-row: 2 / 3;
 }
 
-
 @media screen and (max-width: 767px) {
   .places-list__paragraphs {
     grid-row: 4;

@@ -8,14 +8,12 @@
   max-width: 460px;
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .places-list__title {
     font-size: 42px;
     line-height: 46px;
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .places-list__title {

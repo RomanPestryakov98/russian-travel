@@ -14,7 +14,6 @@
   margin-bottom: 0;
 }
 
-
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places-list__paragraph {
     max-width: 456px;
@@ -34,5 +33,3 @@
     min-width: 288px;
   }
 }
-
-
